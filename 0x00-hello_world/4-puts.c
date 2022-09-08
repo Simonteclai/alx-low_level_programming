@@ -1,6 +1,9 @@
 include <stdio.h>
 int main(void)
 {
-	puts("Programing is like building a multilingual puzzle");
+	char ermi[] = "Programing is like building a multilingual puzzle";
+	
+	puts(ermi);
+
 	return(0);
 }
