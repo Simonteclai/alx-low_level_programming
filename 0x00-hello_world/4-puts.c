@@ -1,7 +1,6 @@
 include <stdio.h>
 int main(void)
 {
-	char the[] = "Programing is like building a multilingual puzzle";
-	puts(the);
+	puts("\"Programing is like building a multilingual puzzle");
 	return(0);
 }
