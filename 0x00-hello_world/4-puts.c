@@ -3,13 +3,12 @@
 /**
  * 
  * main - Entry piont
- *
+ *Discription: prints "\" prongramming is like building a multilingual puzzel|*
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char ermi[70];
-	strcpy(ermi,"\"Programming is like building a multilingual puzzle");
-	puts(ermi);
+
+	puts("\"Programming is like building a multilingual puzzle");
         return(0);
 }
