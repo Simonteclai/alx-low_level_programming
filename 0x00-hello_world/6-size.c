@@ -22,6 +22,6 @@ int main(void)
 	
 	printf("size of a float: %zu byte(s)\n", sizeof(f));
 	
-	return(0);
+	return (0);
 }
 
