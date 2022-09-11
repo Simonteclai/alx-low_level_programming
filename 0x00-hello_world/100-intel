@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc -masm=intel $cfile -S >$(echo $CFILE | cut -d"." -f1).s
