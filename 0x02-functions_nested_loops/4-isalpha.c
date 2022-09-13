@@ -12,11 +12,9 @@ int _isalpha(int c)
 	for (i = 'A'; i <= 'Z'; i++)
 	{
 	for (i = 'a'; i <= 'z'; i++)
-	{
 	if (c == i)
 	{
 	return (1);
-	}
 	}
 	}
 	return (0);
