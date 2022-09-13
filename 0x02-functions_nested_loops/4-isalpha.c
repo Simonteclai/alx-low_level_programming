@@ -15,6 +15,7 @@ int _isalpha(int c)
 	{
 	return (1);
 	}
+	}
 	for (a = 'a'; a <= 'z'; a++)
 	{
 	if (c == a)
@@ -23,5 +24,4 @@ int _isalpha(int c)
 	}
 	}
 	return (0);
-	}
 }
