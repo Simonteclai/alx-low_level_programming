@@ -1,17 +1,21 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - Entry point
- * Description: prints a line given
+ * Description: prints a word
  * Return: 0 (Success)
  */
 int main(void)
 {
-	char a;
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
-	a = "_putchar";
-
-	putchar(a);
-	putchar('\n');
 	return (0);
 }
