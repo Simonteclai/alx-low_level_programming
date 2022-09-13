@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 #include <ctype.h>
 /**
  * _islower - checks if the alphabets are lower or not
