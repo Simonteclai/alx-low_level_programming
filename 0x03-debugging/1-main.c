@@ -12,7 +12,7 @@ int main(void)
 
 	while (i < 10)
 	{
-		putchar(i);/* i incrimentation needed i++ */
+		putchar(i); /* i incrimentation, needed i++ */
 	}
 	printf("infinite loop avoided! \\o/\n");
 	return (0);
