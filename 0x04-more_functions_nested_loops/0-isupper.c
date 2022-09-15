@@ -9,14 +9,8 @@ int _isupper(int c)
 	char i;
 
 	for (i = "A"; i <= "Z"; i++)
-	{
-		if (c == i)
-		{
-			return (1);
-		}
-		if (c != i)
-		{
-			return (0);
-		}
-	}
+	if (c == i)
+	return (1);
+	if (c != i)
+	return (0);
 }
