@@ -9,11 +9,12 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	int i, j, n;
+	char i, j;
+	int n;
 
-	for (i = 0; s1[i] != '\0'; i++)
+	for (i = 'a'; s1[i] <= 'z'; i++)
 		;
-	for (j = 0; s2[j] != '\0'; j++)
+	for (j = 'a'; s2[j] <= 'z'; j++)
 	{
 		if (i == j)
 		n == 0;
