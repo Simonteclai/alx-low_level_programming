@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * cap_string - capitalizes elements of an array
- * @x: the string
- * Return: the string
+ * cap_string - capitalize
+ * @x: string
+ * Return: val
  */
 
 char *cap_string(char *x)
@@ -17,4 +17,3 @@ char *cap_string(char *x)
 	}
 	return (x);
 }
-
