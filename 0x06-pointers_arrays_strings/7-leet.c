@@ -6,10 +6,10 @@
  * Return: new converted
  */
 
-char *leet(char *)
+char *leet(char *new)
 {
 	int i, j;
-	char si[] = {'a', 'e', 'o', 't', 'l', '\0'};
+	char si[] = "aeotl"
 	char er[] = {'A', 'E', 'O', 'T', 'L', '\0'};
 	char el[] = {'4', '3', '0', '7', '1', '\0'};
 
