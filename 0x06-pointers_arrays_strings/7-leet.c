@@ -1,26 +1,29 @@
 #include "main.h"
 
 /**
- * leet - encondin functiong
- * @new: the change
- * Return: new converted
+ * leet - entry
+ * @s: sti
+ * Return: void
  */
 
-char *leet(char *new)
+char *leet(char *s)
 {
-	int i, j;
-	char si[] = "aeotl"
-	char er[] = {'A', 'E', 'O', 'T', 'L', '\0'};
-	char el[] = {'4', '3', '0', '7', '1', '\0'};
+	int i, ii;
 
-	for (i = 0; new[i] != '\0'; ++i)
+	char s1[] = "aeotl";
+	char S1[] = "AEOTL";
+	char s2[] = "43071";
+
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		for (j = 0; j < 5; j++)
+		for (ii = 0; ii < 5; ii++)
 		{
-			if (new[i] == si[j] || new[i] == er[j])
+			if (s[i] == s1[ii] || s[i] == S1[ii])
 			{
-				new[i] == el[j];
+				s[i] = s2[ii];
+				break;
 			}
 		}
-		return (new);
+	}
+	return (s);
 }
