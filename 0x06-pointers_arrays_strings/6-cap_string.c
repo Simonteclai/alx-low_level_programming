@@ -1,9 +1,9 @@
 # include "main.h"
 
 /**
- * cap_string - capitalize
+ * cap_string - capitalizes
  * @x: string
- * Return: val
+ * Return: value
  */
 
 char *cap_string(char *x)
