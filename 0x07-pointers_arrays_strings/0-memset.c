@@ -11,13 +11,10 @@
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int element;
-	unsigned char *string = s;
-
-	contst unsigned char *constant = b;
+	int element;
 
 	for (element = 0; element < n; element++)
-		string[element] = constant[element];
+		s[element] = b;
 
 	return (s);
 }
