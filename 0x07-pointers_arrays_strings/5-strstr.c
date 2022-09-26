@@ -3,7 +3,7 @@
 /**
  * _strstr - finds substring
  * @haystack: string
- * @needle:
+ * @needle: find
  * Return: val
  */
 
