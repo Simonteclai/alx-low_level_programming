@@ -9,14 +9,19 @@
 int _sqr(int i, int n)
 {
 	if (n < 0)
+	{
 		return (-1);
+	}
 	else if (i * i == n)
-		return (i);/
+	{
+		return (i);
+	}
 	else if (i * i < n)
 	{
 		return (_sqr(i + 1, n));
 	}
-	return (-1);
+	else
+		return (-1);
 }
 
 /**
