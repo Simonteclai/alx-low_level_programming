@@ -19,8 +19,10 @@ int _test(int n, int pr)
 	else if (n % pr != 0)
 	{
 		return (_test(n, pr + 1));
-		return (0);
 	}
+	else
+	return (0);
+}
 
 /**
  * is_prime_number - checks if the number is prime number
