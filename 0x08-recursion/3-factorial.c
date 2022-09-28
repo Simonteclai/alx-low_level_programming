@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * factorial: shows factorial of a number
+ * factorial - shows factorial of a number
  * @n: the number
  * Return: val or -1
  */
+
 int factorial(int n)
 {
 	if (n < 0)
