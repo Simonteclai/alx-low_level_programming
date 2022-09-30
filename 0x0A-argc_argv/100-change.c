@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 	if (c < 0)
 	{
 		printf("0\n");
-		retorun (0);
+		return (0);
 	}
 	for (; c >= 0;)
 	{
