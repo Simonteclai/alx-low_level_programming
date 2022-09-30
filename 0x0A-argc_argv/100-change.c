@@ -3,8 +3,8 @@
 
 /**
  * main - prints changes
- * argv: vector
- * argc: arguments
+ * @argv: vector
+ * @argc: count arguments
  * Return: val
  */
 
@@ -17,28 +17,36 @@ int main(int argc, char *argv[])
 		printf("Errors\n");
 		return (1);
 	}
+
 	c = atoi(argv[1]);
-	if (c < 0)
+
+	while (c > 0)
 	{
-		printf("0\n");
-		return (0);
-	}
-	for (; c >= 0;)
-	{
-		if ( c >= 25)
+		coins++;
+
+		if ((c - 25) >= 0)
+		{
 			c -= 25;
-		else if (c >= 10)
+			continue;
+		}
+		else if ((c - 10) >= 0)
+		{
 			c -= 10;
-		else if (c -= 5)
+			continue;
+		}
+		else if ((c - 5) >= 0)
+		{
 			c -= 5;
-		else if (c >= 2)
+			continue;
+		}
+		else if ((c - 2) >= 0)
+		{
 			c -= 2;
-		else if (c >= 1)
-			c -= 1;
-		else
-			break;
-		coins += 1;
+			continue;
+		}
+		c--;
 	}
 	printf("%d\n", coins);
+
 	return (0);
 }
