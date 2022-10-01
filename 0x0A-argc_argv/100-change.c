@@ -9,7 +9,7 @@
  * Return: val
  */
 
-int main(int argc, argv *argv[])
+int main(int argc, *argv[])
 {
 	int cents, coins = 0;
 
