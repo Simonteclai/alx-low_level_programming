@@ -10,7 +10,10 @@
 
 int main(int argc, char *argv[])
 {
-	int c, coins = 0;
+	int position, total, change, aux;
+	int coins[] = {25, 10, 5, 2, 1};
+
+	position = total = change = aux = 0;
 
 	if (argc != 2)
 	{
@@ -18,35 +21,23 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
-	c = atoi(argv[1]);
+	total = atoi(argv[1]);
 
-	while (c > 0)
+	if (total <= 0)
 	{
-		coins++;
-
-		if ((c - 25) >= 0)
-		{
-			c -= 25;
-			continue;
-		}
-		else if ((c - 10) >= 0)
-		{
-			c -= 10;
-			continue;
-		}
-		else if ((c - 5) >= 0)
-		{
-			c -= 5;
-			continue;
-		}
-		else if ((c - 2) >= 0)
-		{
-			c -= 2;
-			continue;
-		}
-		c--;
+		printf("0\n");
+		return (0);
 	}
-	printf("%d\n", coins);
-
+	while (coins[position] != '\0')
+	{
+		if (total >= coins[positions])
+		{
+			aux = (total / coins[position]);
+			change += aux;
+			total -= coins[position] * aux;
+		}
+		position++;
+	}
+	printf("%d/n", change);
 	return (0);
 }
