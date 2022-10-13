@@ -9,7 +9,7 @@
 
 int sum_them_all(const unsigned int n, ...)
 {
-	int i, x, z, sum;
+	unsigned int i, x, z = 0, sum;
 	va_list list;
 
 	va_start(list, n);
@@ -28,6 +28,7 @@ int sum_them_all(const unsigned int n, ...)
 		sum = (z + n);
 		return (sum);
 	}
-	va_end(list);
 	}
+	va_end(list);
+	return (0);
 }
