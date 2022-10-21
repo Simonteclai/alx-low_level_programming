@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void __attribute__((constractor)) simo(void);
+void __attribute__((constructor)) simo(void);
 
 /**
  * simo - prints text before main function executes
