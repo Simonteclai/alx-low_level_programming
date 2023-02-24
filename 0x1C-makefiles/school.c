@@ -5,7 +5,6 @@
  *
  * Return: Nothing
  *
- * Learn more: https://www.holbertonschool.com
  */
 void print_school(void)
 {
